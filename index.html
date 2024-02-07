@@ -25,6 +25,37 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
                 <i class="fa-solid fa-bars"></i>
             </div>
         </div>
+        <div class="dropdown_menu">
+            <li><a href="Home">Inicio</a></li>
+            <li><a href="Acerca de">Acerca de...</a></li>
+            <li><a href="Servicios">Informacion</a></li>
+            <li><a href="Contact">Contactame</a></li>
+            <li><a href="#" class="action_btn">Iniciar</a></li>
+        </div>
     </header>
+
+    <main>
+        <section id="hero">
+            <h1>Welcome</h1>
+            <p>
+                Bienvenido <br/>
+            </p>
+        </section>
+    </main> 
+
+    <script>
+        const toggle_btn=document.querySelector('.toggle_btn')
+        const toggle_btnIcon=document.querySelector('.toggle_btn i')
+        const dropdown_menu=document.querySelector('.dropdown_menu')
+
+        toggle_btn.onclick=function(){
+            dropdown_menu.classList.toggle('open')
+            const isOpen=dropdown_menu.classList.contains('open')
+
+            toggle_btnIcon.classList=isOpen
+            ?'fa-solid fa-xmark'
+            :'fa-solid fa-bars'
+        }
+    </script>    
 </body>
 </html>
