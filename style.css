@@ -8,7 +8,17 @@
 body{
     height: 100vh;
     background-color: #000;
-    background-image: url('https://static.vecteezy.com/system/resources/previews/004/736/593/non_2x/geometric-cube-seamless-pattern-soft-gray-and-white-wide-background-minimalist-concept-ready-for-your-backdrop-wallpaper-design-template-free-vector.jpg');
+    background-image: url('https://static.vecteezy.com/system/resources/previews/004/708/484/original/blue-background-simple-and-minimalist-blue-background-design-illustration-vector.jpg');
     background-size: cover;
     background-position: center;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
 }
